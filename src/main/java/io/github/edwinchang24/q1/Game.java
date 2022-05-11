@@ -23,7 +23,7 @@ public class Game {
     }
 
     /**
-     * @return true if this game is a bonus game and returns false otherwise.
+     * @return true if this game is a bonus game and false otherwise.
      */
     @RealImplNotShown
     public boolean isBonus() {
@@ -31,7 +31,7 @@ public class Game {
     }
 
     /**
-     * Simulates the play of this Game (consisting of three levels) and updates all relevant game data.
+     * Simulates the play of this game (consisting of three levels) and updates all relevant game data.
      */
     @RealImplNotShown
     public void play() {}
@@ -56,7 +56,7 @@ public class Game {
     }
 
     /**
-     * Simulates the play of num games and returns the highest score earned, as described in part (b).
+     * Simulates the play of <code>num</code> games and returns the highest score earned, as described in part (b).
      */
     @PreCondition("num > 0")
     @Question(number = 1, part = "b")

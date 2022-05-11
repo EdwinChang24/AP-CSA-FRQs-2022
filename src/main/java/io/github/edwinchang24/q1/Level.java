@@ -9,7 +9,7 @@ import io.github.edwinchang24.annotations.RealImplNotShown;
 @HiddenMembers
 public class Level {
     /**
-     * @return true if the player reached the goal on this level and returns false otherwise.
+     * @return true if the player reached the goal on this level and false otherwise.
      */
     @RealImplNotShown
     public boolean goalReached() {
