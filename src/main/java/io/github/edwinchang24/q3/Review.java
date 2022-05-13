@@ -1,0 +1,43 @@
+package io.github.edwinchang24.q3;
+
+import io.github.edwinchang24.annotations.HiddenMembers;
+import io.github.edwinchang24.annotations.PreCondition;
+
+/**
+ * @see <a href="https://apcentral.collegeboard.org/pdf/ap22-frq-computer-science-a.pdf#page=10">AP CSA 2022 FRQs Q2</a>
+ */
+@HiddenMembers
+@SuppressWarnings("FieldMayBeFinal")
+public class Review {
+
+    /**
+     * The rating given in this review.
+     */
+    private int rating;
+
+    /**
+     * The comment of this review.
+     */
+    private String comment;
+
+    @PreCondition({"r >= 0", "c is not null"})
+    public Review(int r, String c) {
+        rating = r;
+        comment = c;
+    }
+
+    /**
+     * @return the rating given in this review.
+     */
+    public int getRating() {
+        return rating;
+    }
+
+    /**
+     * @return the comment of this review.
+     */
+    public String getComment() {
+        return comment;
+    }
+
+}

@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 @Target({ElementType.METHOD, ElementType.CONSTRUCTOR})
 public @interface PostCondition {
     /**
-     * The condition that must be true.
+     * The condition(s) that must be true.
      */
-    String value();
+    String[] value();
 }

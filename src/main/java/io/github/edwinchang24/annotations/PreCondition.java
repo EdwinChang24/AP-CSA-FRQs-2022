@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 @Target({ElementType.METHOD, ElementType.CONSTRUCTOR})
 public @interface PreCondition {
     /**
-     * The condition assumed to be true.
+     * The condition(s) assumed to be true.
      */
-    String value();
+    String[] value();
 }
