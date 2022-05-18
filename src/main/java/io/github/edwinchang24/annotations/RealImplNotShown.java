@@ -6,5 +6,5 @@ import java.lang.annotation.Target;
 /**
  * Indicates that the annotated method has a different, unknown implementation from the one shown.
  */
-@Target({ElementType.METHOD, ElementType.CONSTRUCTOR})
+@Target({ElementType.METHOD, ElementType.CONSTRUCTOR, ElementType.FIELD})
 public @interface RealImplNotShown { }
