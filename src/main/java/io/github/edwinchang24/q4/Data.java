@@ -11,6 +11,7 @@ import io.github.edwinchang24.annotations.RealImplNotShown;
 @HiddenMembers
 @SuppressWarnings("unused")
 public class Data {
+
     /**
      * The maximum value of any item in the grid.
      */
@@ -23,7 +24,7 @@ public class Data {
     private int[][] grid;
 
     /**
-     * Fills grid with randomly generated values, as described in part (a).
+     * Fills <code>grid</code> with randomly generated values, as described in part (a).
      */
     @PreCondition({"grid is not null.", "grid has at least one element."})
     @Question(number = 4, part = "a")

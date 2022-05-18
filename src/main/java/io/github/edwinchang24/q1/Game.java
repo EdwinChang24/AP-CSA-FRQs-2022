@@ -10,10 +10,25 @@ import io.github.edwinchang24.annotations.RealImplNotShown;
  */
 @SuppressWarnings({"unused", "FieldMayBeFinal"})
 public class Game {
+
+    /**
+     * The first level of the game.
+     */
     private Level levelOne;
+
+    /**
+     * The second level of the game.
+     */
     private Level levelTwo;
+
+    /**
+     * The third level of the game.
+     */
     private Level levelThree;
 
+    /**
+     * Constructs a new game.
+     */
     @PostCondition("All instance variables have been initialized.")
     @RealImplNotShown
     public Game() {

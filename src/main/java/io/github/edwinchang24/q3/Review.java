@@ -20,6 +20,11 @@ public class Review {
      */
     private String comment;
 
+    /**
+     * Constructs a review with the given rating and comment.
+     * @param r the rating given in this review.
+     * @param c the comment of this review.
+     */
     @PreCondition({"r >= 0", "c is not null."})
     public Review(int r, String c) {
         rating = r;
